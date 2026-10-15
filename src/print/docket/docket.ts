@@ -118,7 +118,7 @@ export const DEFAULT_DOCKET_TEMPLATE: DocketTemplate = {
   logoImageUrl: null,
   logoWidthPercent: 100,
   logoLines: [],
-  brandLines: ['فروج الماسي', 'Farooj Almasi'],
+  brandLines: ['الفروج الماسي', 'Farooj Almasi'],
   showBranchName: true,
   showNewCustomerBadge: true,
   readyTimeRules: DEFAULT_READY_TIME_RULES,
