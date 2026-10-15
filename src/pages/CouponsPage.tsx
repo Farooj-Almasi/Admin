@@ -453,7 +453,7 @@ function OfferPreview({
           <span
             style={{
               display: 'inline-block',
-              border: '1.5px dashed var(--primary, #E5178B)',
+              border: '1.5px dashed var(--primary, #C0202C)',
               borderRadius: 8,
               padding: '4px 10px',
               fontSize: 12,

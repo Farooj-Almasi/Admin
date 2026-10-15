@@ -48,7 +48,7 @@ describe('the web app manifest', () => {
     // Anything other than standalone/fullscreen and it opens as a tab, which is
     // the whole thing installing was meant to avoid.
     expect(['standalone', 'fullscreen']).toContain(manifest.display);
-    expect(manifest.theme_color).toBe('#E5178B');
+    expect(manifest.theme_color).toBe('#C0202C');
   });
 
   it('declares both required icon sizes, at both purposes', () => {

@@ -1,15 +1,16 @@
 /* Farooj Almasi admin — brand + motion tokens as CSS variables.
    Colours sampled from the logo; durations/easings mirror the motion system. */
 :root {
-  --magenta: #E5178B;
+  --magenta: #C0202C; /* brand primary (banner red) */
+  --green: #3F7F3A;   /* brand accent (field green) */
   --orange: #F47C20;
   --blue: #2E63A6;
-  --bg: #FCF7FA;
+  --bg: #FBF7F5;
   --surface: #FFFFFF;
-  --surface-alt: #F6EEF3;
-  --border: #EBDCE5;
+  --surface-alt: #F4EEEC;
+  --border: #E8DDDA;
   --text: #1E1A1C;
-  --muted: #6E6167;
+  --muted: #6E6460;
   --success: #2E9E5B;
   --danger: #D6453B;
   --warning: #F47C20;
@@ -38,7 +39,7 @@ body {
   background: var(--bg);
   color: var(--text);
 }
-a { color: var(--blue); text-decoration: none; }
+a { color: var(--green); text-decoration: none; }
 button { font: inherit; cursor: pointer; }
 button:disabled { opacity: 0.55; cursor: default; }
 input, select {

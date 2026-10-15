@@ -115,7 +115,7 @@ const TONE_COLOURS: Record<PinTone, string> = {
   free: '#2E9E5B',
   busy: '#F4701F',
   stale: '#98A2B3',
-  destination: '#E5178B',
+  destination: '#C0202C',
   branch: '#3D78C0',
 };
 
