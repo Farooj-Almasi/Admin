@@ -4,7 +4,7 @@
 // dev overrides it via `.env.local` (see `.env.example`).
 export const API_BASE_URL: string =
   (import.meta.env.VITE_API_BASE_URL as string | undefined) ??
-  'https://fam-api-453110822953.me-central1.run.app/api/v1';
+  'https://fam-api-staging-684357147464.me-central1.run.app/api/v1';
 
 export const GOOGLE_MAPS_API_KEY: string =
   (import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined) ?? '';
